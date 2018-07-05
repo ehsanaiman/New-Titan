@@ -28,10 +28,10 @@ Pebble.addEventListener("showConfiguration",
     }
     
     if (platform=='aplite') {
-            Pebble.openURL("https://ehsanaiman.github.io/"+url_args);
+            Pebble.openURL("https://ehsanaiman.github.io/NewTITAN_configpage/"+url_args);
             console.log("Connected to http configuration page!");
     } else {
-            Pebble.openURL("https://ehsanaiman.github.io/"+url_args);
+            Pebble.openURL("https://ehsanaiman.github.io/NewTITAN_configpage/"+url_args);
             console.log("Connected to http configuration page!");
     }
   }
