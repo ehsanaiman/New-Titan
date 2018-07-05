@@ -1,0 +1,168 @@
+{
+    "author": "UKUYU",
+    "dependencies": {},
+    "keywords": [],
+    "name": "new-titan",
+    "pebble": {
+        "capabilities": [
+            "configurable"
+        ],
+        "displayName": "New TITAN",
+        "enableMultiJS": false,
+        "messageKeys": {
+            "Key_Battery": 13,
+            "Key_Bluetooth": 5,
+            "Key_ClockType": 3,
+            "Key_Crown": 8,
+            "Key_DateBox": 7,
+            "Key_HandType": 4,
+            "Key_Light": 12,
+            "Key_Numbers": 6,
+            "Key_Radio": 2,
+            "Key_SrcSaver": 10,
+            "Key_Ticks": 9,
+            "Key_Time": 11,
+            "Key_UseSeconds": 0,
+            "Key_UseShadows": 1
+        },
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/applepirates.png",
+                    "name": "PIC11",
+                    "type": "png"
+                },
+                {
+                    "file": "images/bw1.png",
+                    "name": "PIC15",
+                    "type": "png"
+                },
+                {
+                    "file": "images/bw2.png",
+                    "name": "PIC16",
+                    "type": "png"
+                },
+                {
+                    "file": "images/bw3.png",
+                    "name": "PIC17",
+                    "type": "png"
+                },
+                {
+                    "file": "images/bw4.png",
+                    "name": "PIC18",
+                    "type": "png"
+                },
+                {
+                    "file": "images/bw5.png",
+                    "name": "PIC19",
+                    "type": "png"
+                },
+                {
+                    "file": "images/bw6.png",
+                    "name": "PIC20",
+                    "type": "png"
+                },
+                {
+                    "file": "images/bw7.png",
+                    "name": "PIC21",
+                    "type": "png"
+                },
+                {
+                    "file": "images/bw8.png",
+                    "name": "PIC22",
+                    "type": "png"
+                },
+                {
+                    "file": "images/jirafa.png",
+                    "name": "PIC10",
+                    "type": "png"
+                },
+                {
+                    "file": "images/joker.png",
+                    "name": "PIC7",
+                    "type": "png"
+                },
+                {
+                    "file": "images/pebblesbw.png",
+                    "name": "PIC5",
+                    "type": "png"
+                },
+                {
+                    "file": "images/picaso1.png",
+                    "name": "PIC2",
+                    "type": "png"
+                },
+                {
+                    "file": "images/picasso3bw.png",
+                    "name": "PIC3",
+                    "type": "png"
+                },
+                {
+                    "file": "images/picasso3bwinv.png",
+                    "name": "PIC12",
+                    "type": "png"
+                },
+                {
+                    "file": "images/picasso4bw.png",
+                    "name": "PIC6",
+                    "type": "png"
+                },
+                {
+                    "file": "images/picasso_bw.png",
+                    "name": "PIC4",
+                    "type": "png"
+                },
+                {
+                    "file": "images/scary.png",
+                    "name": "PIC9",
+                    "type": "png"
+                },
+                {
+                    "file": "images/skully_bw.png",
+                    "name": "SKULLY",
+                    "type": "png"
+                },
+                {
+                    "file": "images/smily2.png",
+                    "name": "PIC8",
+                    "type": "png"
+                },
+                {
+                    "file": "images/smilybw.png",
+                    "name": "PIC13",
+                    "type": "png"
+                },
+                {
+                    "file": "images/womanbw.png",
+                    "name": "PIC14",
+                    "type": "png"
+                },
+                {
+                    "file": "images/zebra.png",
+                    "name": "PIC1",
+                    "type": "png"
+                },
+                {
+                    "file": "images/titan_icon-picsay.png",
+                    "menuIcon": true,
+                    "name": "ICON",
+                    "targetPlatforms": null,
+                    "type": "png"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk",
+            "diorite"
+        ],
+        "uuid": "7d599476-d3c8-4f7d-9fb0-5b56d050b1de",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "10.0.0"
+}
