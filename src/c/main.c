@@ -1409,7 +1409,7 @@ void handle_tick(struct tm *now, TimeUnits units_changed) {
       if((now->tm_sec)==0||a==1){control = 1;} else {control=0;}
   }
   
-  static char date_buf[] = "Mon 1";
+  static char date_buf[10];
   static char battery_buf[16];
   int key = 0;
   int sector;
@@ -1460,7 +1460,7 @@ void handle_tick(struct tm *now, TimeUnits units_changed) {
      layer_mark_dirty((Layer *)BN12);
  
      c_state = battery_state_service_peek();
-     strftime(date_buf, sizeof("Mon 1"), "%a %e", now);
+     strftime(date_buf, 10, "%a %e", now);
      text_layer_set_text(date, date_buf);
     
      int elapsed = 1;
